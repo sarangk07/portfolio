@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.body1{
+    background-color: #040507;
+    color: rgb(243, 242, 242);
+}
+
+/* .nav-item{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    
+}
+.nav-item:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan,;
+} */
+.nav-link{
+    color: rgb(50, 192, 73);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.navbar-brand{
+    padding-left: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#Sarang{
+    color: #5CDB95; 
+    font-size: 40px;
+    /* text-shadow:cyan 12px -24 20px ; */
+}
+.logotext{
+    font-size: 5em;
+    text-shadow: 0 0 50px #0f0;
+    text-shadow: 0 0 50px #0f0;
+    text-shadow: 0 0 50px #0f0;
+    text-shadow: 0 0 50px #0f0;
+    text-shadow: 0 0 50px #0f0;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.maintexts{
+    font-family: Courier, monospace;;
+}
+.maincontainer{
+    margin-bottom: 150px;
+}
+.containermain{
+    background: url(imges/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    background-size: cover;
+    width: 100%; 
+    height: 100vh;
+   
+}
+.pic{
+    width: 35vh;
+    height: 35vh;
+    border: none;
+    border-radius: 20px;
+    border:0; 
+    /* box-shadow: 5px 10px 10px cyan;   */
+}
+
+.pic:hover{
+    box-shadow: 3px 3px 10px cyan;
+}
+
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.skill{
+    background-color: #040507;
+    font-family: 'Brush Script MT', cursive;
+}
+.about{
+    background-color:#070b13;
+}
+#skillandproj{
+    background-color: rgb(19, 17, 17);
+    border-radius: 0px 0px 150px 150px;
+    box-shadow: 5px 10px 10px cyan;
+}
+#skillsection{
+    background-color:rgb(19, 17, 17);
+}
+/* .carousel-inner{
+    width: 100%;
+    height: 50%;
+} 
+*/
+
+ul{
+    list-style: none;
+}
+.aboutli::before{
+    padding-right: 10px;
+    list-style:none ;
+}
+.aboutli:hover{
+    content: "\25CE";
+    color: #66FCF1;
+    
+}
+.detailssp{
+    color:#5CDB95;
+}
+.progress{
+    background-color: rgb(74, 224, 99);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #66FCF1;
+    height: 25px;
+    width: 0;
+}
+.pro-value2{
+    animation: load2 4s normal forwards;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #66FCF1;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 5s normal forwards;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #66FCF1;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 6s normal forwards;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #66FCF1;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 2px;
+}
+.cssimg{
+    width: 15px;
+    height: 15px;
+}
+@keyframes load1{
+    0%{
+        width:0;
+    }
+    100%{
+        color: #66FCF1;
+        width: 85%;
+    }
+}
+@keyframes load2{
+    0%{
+        width:0;
+    }
+    100%{
+        color: #66FCF1;
+        width: 75%;
+    }
+}
+@keyframes load3{
+    0%{
+        width:0;
+    }
+    100%{
+        color: #66FCF1;
+        width: 55%;
+    }
+}
+@keyframes load4{
+    0%{
+        width:0;
+    }
+    100%{
+        color: #66FCF1;
+        width: 80%;
+    }
+}
+.carousel-inner{
+    border-radius:70px ;
+}
+.carousel{
+    width: 100%;
+    height: 100svh;
+}
+/* .project{
+    width: 100%;
+    height: 200px;
+} */
+
+
+
+
+
+.footsection{
+    list-style: none;
+   background-color:#040507;
+}
+.footcont{
+    background-color:rgb #040507;
+}
+#contactsection{
+    background-color: rgb(19, 17, 17);
+    border-radius: 80px 80px 0 0;
+    box-shadow: 5px 10px 10px cyan;
+}
+.contactimg{
+    width:50px;
+    height: 50px;
+    background-color: azure;
+    border-radius: 80px;
+}
+.followli{
+    padding-top: 10px;
+}
+
+
+
+
+
+
